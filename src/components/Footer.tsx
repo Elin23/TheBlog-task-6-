@@ -5,7 +5,7 @@ import { footerLinks } from '../data/siteLinks';
 export default function Footer() {
 
   return (
-    <footer className='3xl:container 3xl:mx-auto flex gap-3.5 flex-col-reverse md:flex-row text-center lg:text-start py-[30px] text-dark dark:text-white text-xl font-inter'>
+    <footer className='min-[2000px]:container min-[2000px]:mx-auto flex gap-3.5 flex-col-reverse md:flex-row text-center lg:text-start py-[30px] text-dark dark:text-white text-xl font-inter'>
       <span>© 2023</span>
       <div className='flex flex-col md:flex-row gap-3.5'>
         {footerLinks.map((element, index) => {

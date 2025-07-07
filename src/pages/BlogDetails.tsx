@@ -4,7 +4,7 @@ import SubscribeSection from "../sections/SubscribeSection";
 
 function BlogDetails() {
   return (
-    <div className="mt-[60px] md:mt-[120px] flex flex-col gap-12">
+    <div className="min-[2000px]:container min-[2000px]:mx-auto mt-[60px] md:mt-[120px] flex flex-col gap-12">
       <div className="flex flex-col md:flex-row gap-8">
         <div className="max-md:w-full order-2 md:order-1">
           <RecentPosts

@@ -49,7 +49,7 @@ export default function Navbar({ links }: NavbarProps) {
         className={`fixed px-[20px] lg:px-[6%] top-0 w-full left-0 right-0 z-[988] transition-shadow duration-300 bg-white dark:bg-dark ${
           isScrolled ? 'shadow-md dark:shadow-white/10 shadow-black/10' : ''
         }`}>
-        <div className="flex justify-between items-center pt-[30px] pb-[50px]">
+        <div className="min-[2000px]:container min-[2000px]:mx-auto flex justify-between items-center pt-[10px] pb-[20px] md:pt-[30px] md:pb-[50px]">
           <h3
             className="font-inter text-lg lg:text-xl font-semibold leading-6 dark:text-white text-dark cursor-pointer"
             onClick={() => setIsPopupOpen(true)}
